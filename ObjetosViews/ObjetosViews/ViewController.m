@@ -16,8 +16,33 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    _navegador.delegate = self;
+   
+    NSURL * url = [NSURL URLWithString:@"http://eltiempo.com"];
+    NSURLRequest * urlRequest = [[NSURLRequest alloc] initWithURL:url];
+    
+    
+    
+    [_navegador loadRequest:urlRequest];
+    
+    //lat 6.2359
+    //long -75.57
+    
+   
 }
+
+-(void)webViewDidStartLoad:(UIWebView *)webView{
+    [_cargando startAnimating];
+}
+-(void)webViewDidFinishLoad:(UIWebView *)webView{
+    [_cargando stopAnimating];
+    _cargando.hidden = YES;
+    
+    NSString * script = @"alert('Hola JS desde Objective C');";
+    
+    [_navegador stringByEvaluatingJavaScriptFromString:script];
+}
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

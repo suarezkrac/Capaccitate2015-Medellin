@@ -14,6 +14,8 @@
 		AD1FC6AF1AA0F887007AEC33 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD1FC6AE1AA0F887007AEC33 /* Images.xcassets */; };
 		AD1FC6B21AA0F887007AEC33 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD1FC6B01AA0F887007AEC33 /* LaunchScreen.xib */; };
 		AD1FC6BE1AA0F887007AEC33 /* ObjetosViewsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AD1FC6BD1AA0F887007AEC33 /* ObjetosViewsTests.m */; };
+		AD5E24FB1AA1087D0061460F /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD5E24FA1AA1087D0061460F /* MapKit.framework */; };
+		AD5E24FE1AA109D60061460F /* MapaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD5E24FD1AA109D60061460F /* MapaViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,9 @@
 		AD1FC6B71AA0F887007AEC33 /* ObjetosViewsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ObjetosViewsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD1FC6BC1AA0F887007AEC33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AD1FC6BD1AA0F887007AEC33 /* ObjetosViewsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjetosViewsTests.m; sourceTree = "<group>"; };
+		AD5E24FA1AA1087D0061460F /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		AD5E24FC1AA109D60061460F /* MapaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapaViewController.h; sourceTree = "<group>"; };
+		AD5E24FD1AA109D60061460F /* MapaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapaViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD5E24FB1AA1087D0061460F /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +69,9 @@
 		AD1FC6951AA0F887007AEC33 = {
 			isa = PBXGroup;
 			children = (
+				AD5E24FC1AA109D60061460F /* MapaViewController.h */,
+				AD5E24FD1AA109D60061460F /* MapaViewController.m */,
+				AD5E24FA1AA1087D0061460F /* MapKit.framework */,
 				AD1FC6A01AA0F887007AEC33 /* ObjetosViews */,
 				AD1FC6BA1AA0F887007AEC33 /* ObjetosViewsTests */,
 				AD1FC69F1AA0F887007AEC33 /* Products */,
@@ -220,6 +229,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AD1FC6AA1AA0F887007AEC33 /* ViewController.m in Sources */,
+				AD5E24FE1AA109D60061460F /* MapaViewController.m in Sources */,
 				AD1FC6A71AA0F887007AEC33 /* AppDelegate.m in Sources */,
 				AD1FC6A41AA0F887007AEC33 /* main.m in Sources */,
 			);
@@ -412,6 +422,7 @@
 				AD1FC6C31AA0F887007AEC33 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AD1FC6C41AA0F887007AEC33 /* Build configuration list for PBXNativeTarget "ObjetosViewsTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +431,7 @@
 				AD1FC6C61AA0F887007AEC33 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
