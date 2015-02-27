@@ -92,11 +92,31 @@
                     <connections>
                         <segue destination="vXZ-lx-hvc" kind="relationship" relationship="viewControllers" id="sYt-Zn-Cd5"/>
                         <segue destination="bvF-YD-ZHY" kind="relationship" relationship="viewControllers" id="cdo-T2-kCu"/>
+                        <segue destination="km4-0i-18Z" kind="relationship" relationship="viewControllers" id="cpH-Oe-gLS"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SwG-LS-y7P" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="606" y="281"/>
+        </scene>
+        <!--Item-->
+        <scene sceneID="sOe-uS-jVl">
+            <objects>
+                <viewController id="km4-0i-18Z" customClass="GoogleViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="OT5-F7-B0C"/>
+                        <viewControllerLayoutGuide type="bottom" id="SNL-dE-5D7"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="nZG-5K-DVX">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item" id="9tX-0M-Sxu"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fDc-Gv-Nee" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="840" y="1223"/>
         </scene>
     </scenes>
 </document>

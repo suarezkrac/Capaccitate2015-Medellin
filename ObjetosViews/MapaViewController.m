@@ -18,6 +18,12 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     _mapa.delegate = self;
+    
+    _locationManager = [[CLLocationManager alloc] init];
+    _locationManager.delegate = self;
+    
+    [_locationManager requestAlwaysAuthorization];
+    [_mapa setShowsUserLocation:YES];
 }
 
 - (void)didReceiveMemoryWarning {
