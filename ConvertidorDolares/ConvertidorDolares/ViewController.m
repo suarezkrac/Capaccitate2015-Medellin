@@ -17,6 +17,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    conversor = [[Dolar alloc] init];
+    
 }
 
 - (void)didReceiveMemoryWarning {
@@ -24,6 +26,8 @@
     // Dispose of any resources that can be recreated.
 }
 
-- (IBAction)calcularValor:(id)sender {
+- (IBAction)calcularValorDolar:(id)sender {
+    [conversor calcularResultado:[_valorPesos.text intValue]];
+    _resultText.text = [NSString stringWithFormat:@"%f",conversor.resultado];
 }
 @end

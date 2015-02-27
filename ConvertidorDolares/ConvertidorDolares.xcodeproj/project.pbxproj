@@ -15,6 +15,7 @@
 		AD75C1491AA0CEF400BDB6CB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD75C1471AA0CEF400BDB6CB /* LaunchScreen.xib */; };
 		AD75C1551AA0CEF500BDB6CB /* ConvertidorDolaresTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AD75C1541AA0CEF500BDB6CB /* ConvertidorDolaresTests.m */; };
 		AD75C1601AA0CF7900BDB6CB /* Dolar.m in Sources */ = {isa = PBXBuildFile; fileRef = AD75C15F1AA0CF7900BDB6CB /* Dolar.m */; };
+		AD75C1661AA0F4B000BDB6CB /* ConversorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD75C1651AA0F4B000BDB6CB /* ConversorViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,8 @@
 		AD75C1541AA0CEF500BDB6CB /* ConvertidorDolaresTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConvertidorDolaresTests.m; sourceTree = "<group>"; };
 		AD75C15E1AA0CF7900BDB6CB /* Dolar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dolar.h; sourceTree = "<group>"; };
 		AD75C15F1AA0CF7900BDB6CB /* Dolar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dolar.m; sourceTree = "<group>"; };
+		AD75C1641AA0F4B000BDB6CB /* ConversorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ConversorViewController.h; path = ../ConversorViewController.h; sourceTree = "<group>"; };
+		AD75C1651AA0F4B000BDB6CB /* ConversorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ConversorViewController.m; path = ../ConversorViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,6 +138,8 @@
 		AD75C1621AA0CFC400BDB6CB /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				AD75C1641AA0F4B000BDB6CB /* ConversorViewController.h */,
+				AD75C1651AA0F4B000BDB6CB /* ConversorViewController.m */,
 				AD75C13F1AA0CEF400BDB6CB /* ViewController.h */,
 				AD75C1401AA0CEF400BDB6CB /* ViewController.m */,
 			);
@@ -253,6 +258,7 @@
 				AD75C1411AA0CEF400BDB6CB /* ViewController.m in Sources */,
 				AD75C13E1AA0CEF400BDB6CB /* AppDelegate.m in Sources */,
 				AD75C13B1AA0CEF400BDB6CB /* main.m in Sources */,
+				AD75C1661AA0F4B000BDB6CB /* ConversorViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

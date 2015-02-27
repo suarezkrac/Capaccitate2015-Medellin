@@ -10,7 +10,7 @@
 
 @interface Dolar : NSObject
 
-@property NSInteger resultado;
+@property float resultado;
 
 //-(void) calcularResultado;
 -(void) calcularResultado:(NSInteger) value;

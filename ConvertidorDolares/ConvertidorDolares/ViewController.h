@@ -7,9 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Dolar.h"
 
 @interface ViewController : UIViewController
 
+{
+    Dolar * conversor;
+
+}
 @property (strong, nonatomic) IBOutlet UITextField *valorPesos;
 
 - (IBAction)calcularValorDolar:(id)sender;
