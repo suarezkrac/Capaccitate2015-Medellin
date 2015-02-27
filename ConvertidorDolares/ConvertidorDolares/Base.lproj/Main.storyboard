@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Convertidor de Pesos a Dolar" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5bP-zZ-E4e">
+                                <rect key="frame" x="16" y="33" width="288" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" clearButtonMode="always" translatesAutoresizingMaskIntoConstraints="NO" id="9dF-yD-eTx">
+                                <rect key="frame" x="111" y="79" width="100" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="QpP-pp-aaQ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocorrectionType="no" keyboardType="numberPad"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1FN-GA-MCx">
+                                <rect key="frame" x="129" y="128" width="57" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="57" id="es1-wr-wTw"/>
+                                </constraints>
+                                <state key="normal" title="Calcular">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="calcularValorDolar:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="TWP-nT-Q5q"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Resultado" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="awU-IK-KGK">
+                                <rect key="frame" x="34" y="176" width="251" height="56"/>
+                                <color key="backgroundColor" red="1" green="0.9937525774" blue="0.89239506000000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="251" id="PuV-vl-uC4"/>
+                                    <constraint firstAttribute="height" constant="56" id="WOT-re-tnb"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.75" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="1FN-GA-MCx" firstAttribute="centerX" secondItem="9dF-yD-eTx" secondAttribute="centerX" constant="-3.5" id="1ZR-8x-yAN"/>
+                            <constraint firstItem="9dF-yD-eTx" firstAttribute="top" secondItem="5bP-zZ-E4e" secondAttribute="bottom" constant="25" id="76M-Cn-qdH"/>
+                            <constraint firstItem="awU-IK-KGK" firstAttribute="top" secondItem="1FN-GA-MCx" secondAttribute="bottom" constant="18" id="P0o-4h-mbj"/>
+                            <constraint firstItem="1FN-GA-MCx" firstAttribute="top" secondItem="9dF-yD-eTx" secondAttribute="bottom" constant="19" id="Qwe-vM-jix"/>
+                            <constraint firstItem="5bP-zZ-E4e" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="bfR-iK-210"/>
+                            <constraint firstItem="9dF-yD-eTx" firstAttribute="centerX" secondItem="5bP-zZ-E4e" secondAttribute="centerX" constant="0.5" id="dZ8-Tk-pve"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="5bP-zZ-E4e" secondAttribute="trailing" id="laW-xW-Mfx"/>
+                            <constraint firstItem="5bP-zZ-E4e" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="13" id="vvL-7r-oyn"/>
+                            <constraint firstItem="awU-IK-KGK" firstAttribute="centerX" secondItem="1FN-GA-MCx" secondAttribute="centerX" constant="2" id="ysY-nw-btw"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="resultText" destination="awU-IK-KGK" id="DPy-Wk-yjN"/>
+                        <outlet property="valorPesos" destination="9dF-yD-eTx" id="JaY-Bx-tuM"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="203.73333333333332" y="288.73333333333335"/>
+        </scene>
+    </scenes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>

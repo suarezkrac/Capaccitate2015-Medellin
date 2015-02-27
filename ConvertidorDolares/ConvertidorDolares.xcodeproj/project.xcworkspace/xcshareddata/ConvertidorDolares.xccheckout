@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>1A87B897-0DF4-489A-8B52-7CACF57584F1</string>
+	<key>IDESourceControlProjectName</key>
+	<string>ConvertidorDolares</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>F8B0E8D2E9A678786948ACE99DC8D0B170835FC5</key>
+		<string>https://github.com/suarezkrac/Capaccitate2015.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>ConvertidorDolares/ConvertidorDolares.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>F8B0E8D2E9A678786948ACE99DC8D0B170835FC5</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/suarezkrac/Capaccitate2015.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>F8B0E8D2E9A678786948ACE99DC8D0B170835FC5</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>F8B0E8D2E9A678786948ACE99DC8D0B170835FC5</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Capaccitate2015</string>
+		</dict>
+	</array>
+</dict>
+</plist>
