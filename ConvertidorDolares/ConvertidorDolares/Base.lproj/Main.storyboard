@@ -143,6 +143,9 @@
                                 <state key="normal" title="Calcular">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="convertPesos:" destination="iNn-X3-gb1" eventType="touchUpInside" id="tM9-s8-XfC"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Resultado" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vFT-p8-tqf">
                                 <rect key="frame" x="34" y="223" width="251" height="56"/>
@@ -155,6 +158,10 @@
                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="qpY-AP-Gvc"/>
+                    <connections>
+                        <outlet property="dolarText" destination="mQB-yq-Emf" id="ocO-ax-0Pw"/>
+                        <outlet property="resultText" destination="vFT-p8-tqf" id="hfk-At-Ikq"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Rbr-dL-iSJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

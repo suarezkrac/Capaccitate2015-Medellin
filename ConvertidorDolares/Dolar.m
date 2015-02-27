@@ -13,5 +13,7 @@
 -(void)calcularResultado:(NSInteger)value{
     _resultado = value/2500.00f;
 }
-
+-(float)calcularPesos:(float)dollars{
+    return dollars*2500.0f;
+}
 @end

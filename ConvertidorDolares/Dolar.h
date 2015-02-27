@@ -12,8 +12,6 @@
 
 @property float resultado;
 
-//-(void) calcularResultado;
 -(void) calcularResultado:(NSInteger) value;
-
-//-(void) calcularResultado:(NSInteger)value conPrecio:(NSInteger)val;
+-(float) calcularPesos:(float) dollars;
 @end
