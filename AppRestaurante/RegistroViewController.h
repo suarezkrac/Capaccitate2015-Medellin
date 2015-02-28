@@ -10,5 +10,10 @@
 
 @interface RegistroViewController : UIViewController
 
+@property NSString * dataTransfer;
+
+@property (strong, nonatomic) IBOutlet UITextField *nameRegistro;
+
+
 - (IBAction)saveButton:(id)sender;
 @end

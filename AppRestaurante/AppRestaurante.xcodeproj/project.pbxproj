@@ -50,6 +50,8 @@
 		AD8EF4121AA1F975006675B4 /* RegistroViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegistroViewController.m; sourceTree = "<group>"; };
 		AD8EF4141AA1F9A7006675B4 /* CartaTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CartaTableViewController.h; sourceTree = "<group>"; };
 		AD8EF4151AA1F9A7006675B4 /* CartaTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CartaTableViewController.m; sourceTree = "<group>"; };
+		AD8EF4171AA20F9B006675B4 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Main.strings; sourceTree = "<group>"; };
+		AD8EF4181AA20F9B006675B4 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -268,6 +270,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				AD8EF3F21AA1F11F006675B4 /* Base */,
+				AD8EF4171AA20F9B006675B4 /* es */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -276,6 +279,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				AD8EF3F71AA1F11F006675B4 /* Base */,
+				AD8EF4181AA20F9B006675B4 /* es */,
 			);
 			name = LaunchScreen.xib;
 			sourceTree = "<group>";
@@ -432,6 +436,7 @@
 				AD8EF4091AA1F11F006675B4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AD8EF40A1AA1F11F006675B4 /* Build configuration list for PBXNativeTarget "AppRestauranteTests" */ = {
 			isa = XCConfigurationList;
@@ -440,6 +445,7 @@
 				AD8EF40C1AA1F11F006675B4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

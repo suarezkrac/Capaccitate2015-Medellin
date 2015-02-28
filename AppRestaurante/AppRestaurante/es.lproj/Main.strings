@@ -1,0 +1,33 @@
+
+/* Class = "IBUIButton"; normalTitle = "Ingresar"; ObjectID = "1ZZ-rI-IWm"; */
+"1ZZ-rI-IWm.normalTitle" = "Ingresar";
+
+/* Class = "IBUILabel"; text = "Pizza Vegetariana"; ObjectID = "5Lk-2M-fcg"; */
+"5Lk-2M-fcg.text" = "Pizza Vegetariana";
+
+/* Class = "IBUILabel"; text = "Pizza Criolla"; ObjectID = "CgG-nO-svQ"; */
+"CgG-nO-svQ.text" = "Pizza Criolla";
+
+/* Class = "IBUITextField"; placeholder = "Ingrese su contraseña"; ObjectID = "Dc7-DE-gR3"; */
+"Dc7-DE-gR3.placeholder" = "Ingrese su contraseña";
+
+/* Class = "IBUILabel"; text = "Pizza Hawaina"; ObjectID = "LrA-Ow-rcg"; */
+"LrA-Ow-rcg.text" = "Pizza Hawaina";
+
+/* Class = "IBUILabel"; text = "Pizza Pepperoni"; ObjectID = "TaH-oM-Xoc"; */
+"TaH-oM-Xoc.text" = "Pizza Pepperoni";
+
+/* Class = "IBUITextField"; placeholder = "Ingrese su usuario"; ObjectID = "U4k-4E-qhe"; */
+"U4k-4E-qhe.placeholder" = "Ingrese su usuario";
+
+/* Class = "IBUILabel"; text = "Registro"; ObjectID = "eXj-Q1-xrf"; */
+"eXj-Q1-xrf.text" = "Registro";
+
+/* Class = "IBUIButton"; normalTitle = "Guardar"; ObjectID = "hOX-tH-fTW"; */
+"hOX-tH-fTW.normalTitle" = "Guardar";
+
+/* Class = "IBUILabel"; text = "Pizza Napolitana"; ObjectID = "hnb-pS-2tS"; */
+"hnb-pS-2tS.text" = "Pizza Napolitana";
+
+/* Class = "IBUITableViewSection"; headerTitle = "Pizzas"; ObjectID = "zHn-L9-K3b"; */
+"zHn-L9-K3b.headerTitle" = "Pizzas";

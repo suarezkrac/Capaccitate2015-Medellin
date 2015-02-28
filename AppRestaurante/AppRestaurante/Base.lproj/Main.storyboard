@@ -293,10 +293,13 @@
                             </mask>
                         </variation>
                     </view>
+                    <connections>
+                        <outlet property="nameRegistro" destination="QgZ-LC-4zz" id="PLd-bw-jXF"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JgB-cl-EN3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1571" y="73"/>
+            <point key="canvasLocation" x="605" y="795"/>
         </scene>
     </scenes>
     <resources>

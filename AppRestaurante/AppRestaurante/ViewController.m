@@ -26,6 +26,8 @@
     
 }
 - (IBAction)validateUser:(id)sender {
+    registro.dataTransfer = _userText.text;
+    
     if ([_userText.text isEqualToString:@"admin"]) {
         if ([_passwordText.text isEqualToString:@"123"]) {
             [self presentViewController:carta animated:YES completion:nil];
